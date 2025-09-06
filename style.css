@@ -1,0 +1,173 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(./fonts/Lato-Regular.ttf);
+}
+
+.logo{
+    height: 42px;
+}
+
+.top-image{
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.bolo-fuba{
+    background-image: url(./images/bolofuba.webp);
+}
+
+.bolo-cenoura{
+    background-image: url(./images/bolocenoura.jpg);
+}
+
+.bolo-chocolate{
+    background-image: url(./images/bolochocolate.webp);
+}
+
+.bolo-mandioca{
+    background-image: url(./images/bolomandioca.jpeg);
+}
+
+.bolo-milho{
+    background-image: url(./images/bolomilho.jpg);
+}
+
+.bolo-laranja{
+    background-image: url(./images/bololaranja.jpg);
+}
+
+.top-bar{
+    text-align: center;
+    padding: 15px;
+    background-color: #ff6b28;
+}
+
+h1{
+    font-size: 48px;
+}
+
+h2{
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #ff6b28;
+}
+
+.card{
+    max-width: 888px;
+    margin-top: 50px;
+    padding: 70px 100px;
+    border-radius: 20px;
+}
+
+.recipe-card{
+    height: 280px;
+    max-width: 300px;
+    margin: 50px auto;
+    border-radius: 20px;
+    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
+    background-color: white;
+}
+
+.foto{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.subtitle{
+    padding-left: auto;
+    padding-bottom: 10px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.recipe-card:hover{
+    box-shadow: 8px 8px 15px 12px rgba(255, 107, 40, 0.3);
+    cursor: pointer;
+}
+
+.content{
+    max-width: 990px;
+    margin: 80px auto;
+    padding: 0px 40px;
+    margin-top: 100px;
+}
+
+.card:hover{
+    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
+}
+
+.ingredients{
+    cursor: url(./images/cursor_ingredientes.png), default;
+}
+
+.prepare{
+    cursor: url(./images/cursor_preparo.png), default;
+}
+
+.instructions{
+    cursor: url(./images/cursor_intrucoes.png), default;
+}
+
+ul, ol{
+    margin: 32px auto;
+}
+
+li{
+    margin-bottom: 14px;
+}
+
+.ingredients-list{
+    margin-bottom: 50px;
+}
+
+.button{
+    background-color: #ff6b28;
+    color: #fff;
+    margin: auto 16px;
+    padding: 16px;
+    border-radius: 20px;
+}
+
+.button:visited{
+    color: #fff;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: #ff6b28;
+}
+
+p>a{
+    color: #ff6b28;
+}
+
+p, li{
+    line-height: 28px;
+}
+
+.footer{
+    background-color: #ff6b28;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.info{
+    max-width: 600px;
+    margin: 0px auto;
+    font-size: 16px;
+    line-height: 24px;
+}

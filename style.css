@@ -45,6 +45,8 @@ html, body{
 }
 
 .top-bar{
+    position: sticky;
+    top: 0px;
     text-align: center;
     padding: 15px;
     background-color: #ff6b28;
